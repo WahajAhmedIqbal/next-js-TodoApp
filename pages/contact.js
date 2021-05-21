@@ -1,9 +1,9 @@
-import { useSelector } from "react-redux";
+import Title from '../components/Title'
 
 const contact = () => {
     return (
         <>
-            <title title='contact' />
+            <Title title='contact' />
 
             <h1>contact</h1>
         </>

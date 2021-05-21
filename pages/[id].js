@@ -1,10 +1,10 @@
+import Title from '../components/Title'
+
 const Post = () => {
     return (
         <>
-    <title title='post' />
-
-
-        <h1>post</h1>
+            <Title title='post' />
+            <h1>post</h1>
         </>
     );
 }

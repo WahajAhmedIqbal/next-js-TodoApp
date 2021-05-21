@@ -18,7 +18,7 @@ const todoInput = () => {
     }
     
     return (
-        <div>
+        <div >
             <input type='text' value={input} onChange={e => setInput(e.target.value)} placeholder='Add Item' />
             <button type='submit' onClick={submitHandler}>Add</button>
         </div>

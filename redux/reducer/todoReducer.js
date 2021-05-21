@@ -6,7 +6,6 @@ const initialState = {
             name: 'item 1'
         }
     ]
-     
 }
 export const todoReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -21,8 +20,7 @@ export const todoReducer = (state = initialState, action) => {
                 ...state,
                 todos: newtodo, ...state.todos
             }
-        case UPDATE_TODO:
-            break
+       
         default:
            return state
     }

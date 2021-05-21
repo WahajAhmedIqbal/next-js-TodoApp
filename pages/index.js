@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Title from '../components/Title'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
   
   return (
     <>
-    <title title='Home' />
+    <Title title='Home' />
      <h1>Home Page</h1> 
     
     </>

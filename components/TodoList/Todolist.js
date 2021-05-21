@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem"
 const Todolist = () => {
     const todos = useSelector(state => state.todoReducer.todos)
     return (
-        <div>
+        <div >
             <h3>todolist </h3>
             {todos.map((item, i) => {
                 return <TodoItem key={i} todo={item} />
